@@ -22,7 +22,7 @@ app.template_folder = 'templates'
 # MySQL Configuration
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'teja@1027'  # Enter your MySQL password here
+app.config['MYSQL_PASSWORD'] = 'enter your password'  # Enter your MySQL password here
 app.config['MYSQL_DB'] = 'answer_evaluation'
 
 mysql = MySQL(app)
